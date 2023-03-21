@@ -1,0 +1,73 @@
+.main1{
+    width: 700px;
+    height: 400px;
+    padding : 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.3);
+    background-color:#C7E8CA;
+}
+
+.main1 hr{
+    width: 50%;
+}
+
+
+.main1 .input-grid{
+    height: 270px;
+}
+
+
+/**label input component css**/
+.label-input{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    padding-left: 10px;
+    margin: 20px;
+    align-items: center;
+    color: #5D9C59;
+}
+
+.label-input h1{
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+.label-input input{
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size : 25px;
+    color: #5D9C59;
+    font-weight: bold;
+    text-align: center;
+}
+
+/**output panel css**/
+.main1 .output-panel{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 .output-panel button{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DF2E38;
+    color: white;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.main1 .output-panel button:hover{
+    cursor: pointer;
+    background-color: #b7262d;
+    transition: 0.3s;
+}
+

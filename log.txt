@@ -1,0 +1,3 @@
+The main1 component has been built
+the inputs are also built with their respective styling
+however the grid needs to be formed and the inputs needs to be placed as per planned.
