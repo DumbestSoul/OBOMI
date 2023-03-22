@@ -15,9 +15,13 @@ export default function Main1(){
     return (
         <div className="main1">
             <div className="input-grid">
-                <LabelInput label="Weight" intext="KGs"/>
-                <LabelInput label="Age" intext="Years" />
-                <LabelInput label="Height" intext="cms" />
+                <div className="inputr1">
+                    <LabelInput label="Weight" intext="KGs"/>
+                    <LabelInput label="Age" intext="Years" />
+                </div>
+                <div className="inputr2">
+                    <LabelInput label="Height" intext="cms" />
+                </div>
             </div>
             <hr />
             <div className="output-panel">

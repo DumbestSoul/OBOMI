@@ -12,9 +12,21 @@
     width: 50%;
 }
 
-
+/**input grid styling**/
 .main1 .input-grid{
+    display: flex;
+    flex-direction: column;
     height: 270px;
+}
+
+.main1 .input-grid .inputr1{
+    display: flex;
+    justify-content: center;
+}
+
+.main1 .input-grid .inputr2{
+    display: flex;
+    justify-content: center;
 }
 
 
