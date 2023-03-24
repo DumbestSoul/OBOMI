@@ -11,7 +11,8 @@ function LabelInput(props){
     )
 }
 
-export default function Main1(){
+
+export default function Main1(props){
     return (
         <div className="main1">
             <div className="input-grid">
@@ -25,7 +26,7 @@ export default function Main1(){
             </div>
             <hr />
             <div className="output-panel">
-                <button>Calculate BMI</button>
+                <button onClick={props.handleClick}>Calculate BMI</button>
             </div>
         </div>
     )
