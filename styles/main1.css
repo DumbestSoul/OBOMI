@@ -1,4 +1,5 @@
 .main1{
+    z-index: 1;
     width: 700px;
     height: 400px;
     padding : 10px;

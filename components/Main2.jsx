@@ -13,7 +13,7 @@ function TextResult(props){
 
 export default function Main2(){
     return (
-        <div className="main2">
+        <div className="main2 displayNone">
             <div className="upper">
                 <h1 className="bmi">21.1</h1>
             </div>
