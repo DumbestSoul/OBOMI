@@ -11,15 +11,15 @@ function TextResult(props){
 }
 
 
-export default function Main2(){
+export default function Main2(props){
     return (
         <div className="main2 displayNone">
             <div className="upper">
-                <h1 className="bmi">21.1</h1>
+                <h1 className="bmi">{props.bmi}</h1>
             </div>
             <div className="lower">
-                <TextResult maintext="Result : " resulttext="Obese" />
-                <TextResult maintext="Recommendation : " resulttext="Lose some weight" />
+                <TextResult maintext="Result : " resulttext={props.res} />
+                <TextResult maintext="Recommendation : " resulttext={props.rec} />
             </div>
         </div>
     );
