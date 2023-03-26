@@ -1,6 +1,7 @@
 import './index.css';
 import Main1 from "./components/Main1";
 import Main2 from './components/Main2';
+import { useState } from 'react';
 
 
 function disappear(){
@@ -11,10 +12,15 @@ function disappear(){
 }
 
 export default function App(){
+
+    const [bmi, setBmi] = useState(0);
+    const [res, setRes] = useState("None");
+    const [rec, setRec] = useState("None");
+
     return (
         <div className="mainBody">
             <Main1 handleClick={disappear}/>
-            <Main2 />
+            <Main2 bmi={bmi} res={res} rec={rec} />
         </div>
     )
 }
