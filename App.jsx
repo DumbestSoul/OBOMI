@@ -2,6 +2,7 @@ import './index.css';
 import Main1 from "./components/Main1";
 import Main2 from './components/Main2';
 import { useState } from 'react';
+<<<<<<< HEAD
 
 
 function disappear(){
@@ -70,6 +71,9 @@ function giveRecommendation(bmi, age){
     return res;
 }
 
+=======
+import {disappear, calculateBmi, giveRecommendation, resultPrediction} from './function/helpers';
+>>>>>>> 0eb600e (REWRITTEN LOGIC)
 
 export default function App(){
 
